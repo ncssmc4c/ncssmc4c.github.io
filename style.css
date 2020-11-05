@@ -1,0 +1,24 @@
+:root{
+    --othercolor: #d3e3fc;
+    --background: #ffffff;
+    --textcolor: #77a6f7;
+}
+
+html *
+{
+   color: var(--textcolor) !important;
+}
+
+body {
+    background-color: var(--background);
+}
+
+p {
+    font-family: 'Chivo', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+}
